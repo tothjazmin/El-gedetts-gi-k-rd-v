@@ -296,7 +296,7 @@ function submitForm() {
         // Reload the page to simulate form submission
         location.reload();
     } else {
-        alert('Kérjük, válassza ki az összes kérdésre a választ, és írja le véleményét!');
+        alert('Kerjuk, valassza ki az osszes kerdesre a valaszt, es irja le velemenyet!');
     }
 }
 
@@ -308,14 +308,15 @@ window.onload = function () {
         // Show the thank you message
         document.body.innerHTML = `
             <div class="thank-you-container">
-                <h1>Köszönjük a válaszát!</h1>
-                <p>A válaszát rögzítettük.</p>
+                <h1>Koszonjuk a valaszat!</h1>
+                <p>A valaszat rogzitettuk.</p>
             </div>
         `;
         // Clear localStorage so that it doesn't persist
         localStorage.removeItem('feedbackSubmitted');
     }
 };
+
 </script>
 </body>
 </html>
